@@ -29,7 +29,7 @@ export default function Home() {
                 Empowering students and educators with intelligent tools for better learning outcomes
               </p>
               <button className="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-blue-50 transition-colors inline-flex items-center gap-2">
-                Join Beta Program <ArrowRight className="w-5 h-5" />
+                Join the Beta Programme <ArrowRight className="w-5 h-5" />
               </button>
             </div>
           </div>
