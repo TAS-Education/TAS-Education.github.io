@@ -165,7 +165,7 @@ export default function Beta() {
                 <div>
                   <h3 className="text-xl font-semibold mb-2">What happens after I sign up?</h3>
                   <p className="text-gray-600">
-                    You'll receive a welcome email with instructions on how to access the beta version and get started with Ample.
+                    You&apos;ll receive a welcome email with instructions on how to access the beta version and get started with Ample.
                   </p>
                 </div>
               </div>

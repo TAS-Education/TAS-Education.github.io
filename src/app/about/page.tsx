@@ -28,7 +28,7 @@ export default function About() {
                 At TAS Education, we believe that every student deserves access to high-quality, personalised feedback. Our mission is to empower educators and students with AI-powered tools that enhance the learning experience and improve educational outcomes.
               </p>
               <p className="text-lg text-gray-600">
-                We're committed to making advanced educational technology accessible to all, helping to bridge the gap between traditional teaching methods and modern learning needs.
+                We&apos;re committed to making advanced educational technology accessible to all, helping to bridge the gap between traditional teaching methods and modern learning needs.
               </p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-sm">
