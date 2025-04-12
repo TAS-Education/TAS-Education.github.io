@@ -4,16 +4,24 @@ export default function Beta() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center">
-            <h1 className="text-4xl sm:text-5xl font-bold mb-6">
-              Join Our Beta Programme
-            </h1>
-            <p className="text-xl sm:text-2xl mb-8 max-w-3xl mx-auto">
-              Be among the first to experience the future of education
-            </p>
-          </div>
+      <section className="relative h-[60vh] flex items-center justify-center">
+        {/* Background Image */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: 'url(/beta_testing.png)' }}
+        />
+        
+        {/* Gradient Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-600/70 to-purple-600/70" />
+        
+        {/* Content */}
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-4xl sm:text-5xl font-bold mb-6 text-white">
+            Join Our Beta Programme
+          </h1>
+          <p className="text-xl sm:text-2xl mb-8 max-w-3xl mx-auto text-white">
+            Be among the first to experience the future of education
+          </p>
         </div>
       </section>
 
