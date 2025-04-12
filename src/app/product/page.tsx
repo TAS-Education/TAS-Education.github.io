@@ -41,10 +41,10 @@ export default function Product() {
             <div>
               <h2 className="text-3xl font-bold mb-6">What is Ample?</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Ample is an innovative AI-powered educational tool that provides instant, detailed feedback on student work. Using advanced natural language processing and machine learning algorithms, Ample analyses essays and assignments to offer personalised insights and recommendations.
+                Ample is an innovative AI-powered educational tool that provides detailed, insightful feedback on student work. Using multiple AI agents, Ample analyses essays and assignments to offer personalised insights and recommendations. As well as referencing Assessment Objectives and mark schemes, Ample uses the Pathos Logos Ethos framework to provide nuanced, layered feedback, to improve student writing.
               </p>
               <p className="text-lg text-gray-600">
-                Our platform helps educators save time while providing students with immediate, constructive feedback that promotes learning and improvement.
+                Our platform helps educators save time while providing students with detailed, constructive feedback that promotes learning and improvement.
               </p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-sm">
@@ -59,7 +59,7 @@ export default function Product() {
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500" />
-                  <span>Instant feedback on student work</span>
+                  <span>Insightful feedback on student work</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500" />
