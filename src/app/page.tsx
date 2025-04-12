@@ -70,7 +70,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Teaching?</h2>
           <p className="text-xl text-gray-600 mb-8">
-            Join our beta program and be among the first to experience the future of education
+            Join our beta programme and be among the first to experience the future of education
           </p>
           <button className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors">
             Sign Up for Beta Access
