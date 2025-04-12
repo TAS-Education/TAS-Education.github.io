@@ -95,10 +95,10 @@ export default function About() {
                 <h3 className="text-2xl font-bold mb-2">Simon Balderson</h3>
                 <p className="text-blue-600 font-medium mb-4">Co-Founder</p>
                 <p className="text-gray-600 mb-4">
-                  With over 15 years of experience in education technology, Simon leads TAS Education with a vision to transform how students learn and teachers teach.
+                  With a background in Philosophy and Computer Science, and decades of experience in teaching, Simon has been working with AI for over 20 years, focusing on the intersection of technology and education.
                 </p>
                 <Link 
-                  href="https://www.linkedin.com/in/simon-balderson" 
+                  href="https://www.linkedin.com/in/simonbalderson/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center gap-1"
@@ -123,10 +123,10 @@ export default function About() {
                 <h3 className="text-2xl font-bold mb-2">Tabatha Sheehan</h3>
                 <p className="text-blue-600 font-medium mb-4">Co-Founder</p>
                 <p className="text-gray-600 mb-4">
-                  Tabatha brings extensive expertise in AI and machine learning, driving the technical innovation behind our educational tools.
+                  Tabatha brings a deep understanding of pedagogy and neuroscience, developing the Pathos, Logos, Ethos (PLE) framework for essay writing, which Ample uses at its core. PLE combines Aristotle's ideas with a cutting edge understanding of the teenage brain, enabling insightful, actionable advice to improve writing.
                 </p>
                 <Link 
-                  href="https://www.linkedin.com/in/tabatha-sheehan" 
+                  href="https://www.linkedin.com/in/tabatha-sheehan-frsa-63b78020b/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center gap-1"
