@@ -123,7 +123,7 @@ export default function About() {
                 <h3 className="text-2xl font-bold mb-2">Tabatha Sheehan</h3>
                 <p className="text-blue-600 font-medium mb-4">Co-Founder</p>
                 <p className="text-gray-600 mb-4">
-                  Tabatha brings a deep understanding of pedagogy and neuroscience, developing the Pathos, Logos, Ethos (PLE) framework for essay writing, which Ample uses at its core. PLE combines Aristotle's ideas with a cutting edge understanding of the teenage brain, enabling insightful, actionable advice to improve writing.
+                  Tabatha brings a deep understanding of pedagogy and neuroscience, developing the Pathos, Logos, Ethos &#40;PLE&#41; framework for essay writing, which Ample uses at its core. PLE combines Aristotle&apos;s ideas with a cutting edge understanding of the teenage brain, enabling insightful, actionable advice to improve writing.
                 </p>
                 <Link 
                   href="https://www.linkedin.com/in/tabatha-sheehan-frsa-63b78020b/" 
