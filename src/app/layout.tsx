@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "TAS Education - AI-Powered Educational Tools",
-  description: "TAS Education offers innovative AI-powered educational tools to enhance learning experiences. Discover our flagship product, Ample, and join our beta testing program.",
-  keywords: "AI education, educational technology, essay analysis, personalized learning, beta testing, TAS Education, Ample, educational tools",
+  description: "TAS Education offers innovative AI-powered educational tools to enhance learning experiences. Discover our flagship product, Ample, and join our beta testing programme.",
+  keywords: "AI education, educational technology, essay analysis, personalised learning, beta testing, TAS Education, Ample, educational tools",
   authors: [{ name: "Simon Balderson", url: "https://www.linkedin.com/in/simon-balderson" }, { name: "Tabatha Sheehan", url: "https://www.linkedin.com/in/tabatha-sheehan" }],
   creator: "TAS Education",
   publisher: "TAS Education",
