@@ -8,7 +8,7 @@ export default function Beta() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <h1 className="text-4xl sm:text-5xl font-bold mb-6">
-              Join Our Beta Program
+              Join Our Beta Programme
             </h1>
             <p className="text-xl sm:text-2xl mb-8 max-w-3xl mx-auto">
               Be among the first to experience the future of education
@@ -20,7 +20,7 @@ export default function Beta() {
       {/* Benefits Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold mb-12 text-center">Beta Program Benefits</h2>
+          <h2 className="text-3xl font-bold mb-12 text-center">Beta Programme Benefits</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <Star className="w-12 h-12 text-blue-600 mb-4" />
@@ -110,7 +110,7 @@ export default function Beta() {
               </div>
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
-                  Why are you interested in joining the beta program?
+                  Why are you interested in joining the beta programme?
                 </label>
                 <textarea
                   id="message"
@@ -129,7 +129,7 @@ export default function Beta() {
                   required
                 />
                 <label htmlFor="consent" className="ml-2 block text-sm text-gray-700">
-                  I agree to receive updates about the beta program
+                  I agree to receive updates about the beta programme
                 </label>
               </div>
               <button
@@ -152,9 +152,9 @@ export default function Beta() {
               <div className="flex items-start gap-4">
                 <Clock className="w-6 h-6 text-blue-600 flex-shrink-0" />
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">How long does the beta program last?</h3>
+                  <h3 className="text-xl font-semibold mb-2">How long does the beta programme last?</h3>
                   <p className="text-gray-600">
-                    The beta program is expected to run for 6 months, with the possibility of extension based on feedback and development needs.
+                    The beta programme is expected to run for 6 months, with the possibility of extension based on feedback and development needs.
                   </p>
                 </div>
               </div>

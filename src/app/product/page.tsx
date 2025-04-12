@@ -5,15 +5,31 @@ export default function Product() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center">
-            <h1 className="text-4xl sm:text-5xl font-bold mb-6">
-              Meet Ample
-            </h1>
-            <p className="text-xl sm:text-2xl mb-8 max-w-3xl mx-auto">
-              Your AI-powered educational assistant for personalised learning
-            </p>
+      <section className="relative min-h-[64vh] py-24 px-4 sm:px-6 lg:px-8 text-white overflow-hidden">
+        {/* Background Image */}
+        <div 
+          className="absolute inset-0 z-0"
+          style={{
+            backgroundImage: 'url(/essay_analysis.png)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+          }}
+        >
+          {/* Overlay */}
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-600/50 to-purple-600/50" />
+        </div>
+        
+        <div className="relative z-10 max-w-7xl mx-auto h-full flex items-center justify-center">
+          <div className="grid grid-cols-1 gap-12 items-center w-full">
+            <div className="text-center">
+              <h1 className="text-4xl sm:text-6xl font-bold mb-6">
+                Meet Ample
+              </h1>
+              <p className="text-xl sm:text-2xl mb-8 max-w-3xl mx-auto">
+                Your AI-powered educational assistant for personalised learning
+              </p>
+            </div>
           </div>
         </div>
       </section>

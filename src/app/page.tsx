@@ -1,32 +1,36 @@
 import { ArrowRight, BookOpen, Brain, Sparkles } from 'lucide-react'
-import Image from 'next/image'
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-purple-600 text-white overflow-hidden">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="text-center lg:text-left">
+      <section className="relative min-h-[64vh] py-24 px-4 sm:px-6 lg:px-8 text-white overflow-hidden">
+        {/* Background Image */}
+        <div 
+          className="absolute inset-0 z-0"
+          style={{
+            backgroundImage: 'url(/ai_classroom.png)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+          }}
+        >
+          {/* Overlay */}
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-600/50 to-purple-600/50" />
+        </div>
+        
+        <div className="relative z-10 max-w-7xl mx-auto h-full flex items-center justify-center">
+          <div className="grid grid-cols-1 gap-12 items-center w-full">
+            <div className="text-center">
               <h1 className="text-4xl sm:text-6xl font-bold mb-6">
                 Transforming Education with AI
               </h1>
-              <p className="text-xl sm:text-2xl mb-8 max-w-3xl mx-auto lg:mx-0">
+              <p className="text-xl sm:text-2xl mb-8 max-w-3xl mx-auto">
                 Empowering students and educators with intelligent tools for better learning outcomes
               </p>
               <button className="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-blue-50 transition-colors inline-flex items-center gap-2">
                 Join Beta Program <ArrowRight className="w-5 h-5" />
               </button>
-            </div>
-            <div className="relative h-[400px] lg:h-[500px] w-full">
-              <Image
-                src="/ai_classroom.png"
-                alt="AI-powered classroom illustration"
-                fill
-                className="object-contain"
-                priority
-              />
             </div>
           </div>
         </div>
